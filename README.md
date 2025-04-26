@@ -31,11 +31,11 @@ Todos los mensajes de error siguen el formato:
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/tu-repo.git
+   git clone https://github.com/isaiascalderon26/userapi-ntt.git
    ```
 2. Ingresar al proyecto:
    ```bash
-   cd tu-repo
+   cd userapi-ntt
    ```
 3. Construir el proyecto:
    ```bash
@@ -82,7 +82,6 @@ http://localhost:8080/h2-console
 - Al crear un usuario, se genera automáticamente un token JWT.
 - Las fechas de creación, modificación y último login se manejan de forma automática.
 
-
 ## Documentación de la API (Swagger)
 
 Al levantar la aplicación, puedes ver la documentación Swagger en:
@@ -96,15 +95,4 @@ Desde allí podrás probar los endpoints de forma fácil.
 ## Autor
 
 Isaias Calderón
-
----
-
-# Notas finales
-
-- Se maneja respuesta uniforme en errores usando `@ControllerAdvice`.
-- Todas las respuestas son en formato **JSON**.
-- Se siguen buenas prácticas REST en el diseño de rutas y respuestas.
-- Se aplica validación de entradas mediante anotaciones `@Valid`.
-
-**Proyecto entregado siguiendo las mejores prácticas para evaluación técnica.**
 
